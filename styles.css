@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: purple;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    border-radius: 100%;
+  }
+  
+  .tagline h1 {
+    margin:0;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 50px 0;
+    background: linear-gradient(to right, #ff4081, #ffcc00);;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex: 1;
+    
+  }
+  
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px 0;
+    background: linear-gradient(to right, #ff4081, #ffcc00);;
+    
+  }
+
+
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    display:inline-block;
+    margin-right: 10px;
+    background-color: rgb(34, 178, 63);
+    padding: 8px 15px;
+    border-radius: 5px;
+
+  
+}
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px 0;
+    background: linear-gradient(to right, #ff4081, #ffcc00);
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project h3 {
+    margin-top: 0;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Acheviments Section */
+  #Acheivement {
+    padding: 50px 0;
+    background: linear-gradient(to right, #ff4081, #ffcc00);
+  }
+  
+  .Acheivement{
+    margin-bottom: 30px;
+  }
+  
+  .Acheivement h3 {
+    margin-top: 0;
+  }
+  
+  .Acheivement img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Resume Section */
+  #resume {
+    padding: 50px 0;
+    background: linear-gradient(to right, #ff4081, #ffcc00);;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 0;
+    background: linear-gradient(to right, #ff4081, #ffcc00);;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333 ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  
+
+  
